@@ -1,1 +1,0 @@
-SELECT m.pid FROM Acts m WHERE EXISTS(SELECT * FROM Movie g WHERE g.mid = m.mid AND name = 'Back to the Future');
