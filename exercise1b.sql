@@ -1,0 +1,2 @@
+INSERT INTO boek VALUES ('978-0590353427', 'Harry Potter and the Philosopher''s Stone', 'J. K. Rowling');
+INSERT INTO boek VALUES ('978-0590353427', 'Cook with Jamie: My Guide to Making You a Better Cook', 'Jamie Oliver');

@@ -1,0 +1,7 @@
+CREATE TABLE exemplaar (
+	isbn VARCHAR(14),
+	volgnummer INTEGER PRIMARY KEY,
+	gewicht INTEGER CHECK (gewicht <= 2000),
+	kast VARCHAR(255),
+	FOREIGN KEY(isbn) REFERENCES boek(isbn) ON UPDATE CASCADE ON DELETE CASCADE
+);

@@ -1,0 +1,1 @@
+DELETE FROM boek WHERE isbn = '978-0590353427';
